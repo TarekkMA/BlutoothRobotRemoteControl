@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="8dp"
+    >
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      >
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+
+    <TextView
+        android:id="@+id/connection_status"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:text="Looook"
+        android:textSize="18sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/settings_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Error"
+        android:textColor="#ff0000"
+        android:textSize="20sp"
+        android:background="#fff"
+        android:visibility="gone"
+        />
+
+    <include
+        layout="@layout/view_settings_enable"
+        android:id="@+id/view_settings_enable"
+        />
+
+    <include
+        layout="@layout/view_settings_conection"
+        android:id="@+id/view_settings_conection"
+        />
+
+
+
+  </LinearLayout>
+
+
+  </FrameLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <item
+      android:id="@+id/navigation_movement"
+      android:icon="@drawable/ic_gamepad_black_24dp"
+      android:title="@string/title_movement"/>
+
+  <item
+      android:id="@+id/navigation_arm"
+      android:icon="@drawable/ic_robot_arm_black_104"
+      android:title="@string/title_robot_arm"/>
+
+  <item
+      android:id="@+id/navigation_utils"
+      android:icon="@drawable/maintenance_96"
+      android:title="@string/utils"/>
+
+  <item
+      android:id="@+id/navigation_settings"
+      android:icon="@drawable/ic_bluetooth_searching_black_24dp"
+      android:title="@string/title_settings"/>
+
+  <item
+      android:id="@+id/navigation_info"
+      android:icon="@drawable/ic_info_black_24dp"
+      android:title="@string/title_info"/>
+
+</menu>

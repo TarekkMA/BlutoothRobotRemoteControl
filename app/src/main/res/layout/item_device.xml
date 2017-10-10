@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="?selectableItemBackground"
+    >
+
+  <TextView
+      android:id="@+id/deviceName"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:text="Hello"
+      android:textSize="18sp"
+      android:textColor="#000"
+      android:textStyle="bold"
+      />
+
+
+  <TextView
+      android:id="@+id/deviceMac"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      tools:text="Hello"
+      android:textSize="16sp"
+      android:textColor="#000"
+      />
+
+</LinearLayout>

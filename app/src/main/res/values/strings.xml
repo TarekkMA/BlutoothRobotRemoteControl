@@ -1,0 +1,12 @@
+<resources>
+  <string name="app_name">Qubits Remote Control</string>
+
+  <string name="title_movement">Movement</string>
+  <string name="title_robot_arm">Arm</string>
+  <string name="title_info">Info</string>
+  <string name="title_settings">Settings</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="utils">Utils</string>
+</resources>
